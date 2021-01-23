@@ -5,8 +5,6 @@ class PlanetarySystem {
   final Random _random = Random();
   final String name;
   final List<Planet> planets;
-  final height = 1;
-  final width = 2;
 
   PlanetarySystem({this.name = 'Unnamed System', this.planets = const []});
 
